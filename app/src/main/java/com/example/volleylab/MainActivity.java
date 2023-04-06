@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                                         jo.getString("html_url"));
                                 developerList.add(developers);
                                 Log.d("res","developers"+ developers);
-
+//
                             }
                             myAdapter = new DevelopersAdapter(developerList, getApplicationContext());
                             recyclerView.setAdapter(myAdapter);
